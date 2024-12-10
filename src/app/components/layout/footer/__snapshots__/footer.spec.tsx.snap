@@ -1,0 +1,19 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Footer > should render correctly 1`] = `
+<div>
+  <footer
+    class="text-center pb-8 pt-24 text-sm text-[#212529]"
+  >
+    © 
+    2024
+     
+    <span
+      class="font-pacifico"
+    >
+      PhotoSearch.
+    </span>
+     ❤️ Wilson Adenuga
+  </footer>
+</div>
+`;

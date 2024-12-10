@@ -1,0 +1,184 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ImageGrid > renders initial images and search query 1`] = `
+<div>
+  <div
+    class="mt-20"
+  >
+    <h5
+      class="text-2xl mb-8"
+    >
+      Showing results for
+       
+      <span
+        class="font-bold border-b border-dotted border-black capitalize"
+      >
+        test
+      </span>
+    </h5>
+    <div
+      class="grid grid-cols-4 gap-4 mt-4"
+    >
+      <div
+        class="flex w-full flex-col items-center border border-gray-200 overflow-hidden rounded-lg bg-zinc-100 shadow-sm"
+      >
+        <div
+          class="w-full relative h-52"
+        >
+          <img
+            alt="A sample image"
+            class="object-cover object-top"
+            data-nimg="fill"
+            decoding="async"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+            src="/_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=3840&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=3840&q=75 3840w"
+            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+          />
+          <div
+            class="bg-white shadow rounded-full absolute text-[11px] px-2.5 py-1 right-3 top-3"
+          >
+            ❤️ 
+            100
+          </div>
+        </div>
+        <div
+          class="p-5 flex items-between w-full items-center justify-between"
+        >
+          <div
+            class="size-8 rounded-full border-2 border-zinc-800 flex-shrink-0"
+          >
+            <img
+              alt="johndoe"
+              class="rounded-full"
+              data-nimg="1"
+              decoding="async"
+              height="32"
+              loading="lazy"
+              src="/_next/image?url=https%3A%2F%2Fexample.com%2Flarge-profile.jpg&w=64&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fexample.com%2Flarge-profile.jpg&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fexample.com%2Flarge-profile.jpg&w=64&q=75 2x"
+              style="color: transparent;"
+              width="32"
+            />
+          </div>
+          <p
+            class="text-sm truncate pl-2"
+          >
+            johndoe
+          </p>
+        </div>
+      </div>
+      <div
+        class="flex w-full flex-col items-center border border-gray-200 overflow-hidden rounded-lg bg-zinc-100 shadow-sm"
+      >
+        <div
+          class="w-full relative h-52"
+        >
+          <img
+            alt="A sample image"
+            class="object-cover object-top"
+            data-nimg="fill"
+            decoding="async"
+            loading="lazy"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+            src="/_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=3840&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=3840&q=75 3840w"
+            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+          />
+          <div
+            class="bg-white shadow rounded-full absolute text-[11px] px-2.5 py-1 right-3 top-3"
+          >
+            ❤️ 
+            100
+          </div>
+        </div>
+        <div
+          class="p-5 flex items-between w-full items-center justify-between"
+        >
+          <div
+            class="size-8 rounded-full border-2 border-zinc-800 flex-shrink-0"
+          >
+            <img
+              alt="johndoe"
+              class="rounded-full"
+              data-nimg="1"
+              decoding="async"
+              height="32"
+              loading="lazy"
+              src="/_next/image?url=https%3A%2F%2Fexample.com%2Flarge-profile.jpg&w=64&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fexample.com%2Flarge-profile.jpg&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fexample.com%2Flarge-profile.jpg&w=64&q=75 2x"
+              style="color: transparent;"
+              width="32"
+            />
+          </div>
+          <p
+            class="text-sm truncate pl-2"
+          >
+            johndoe
+          </p>
+        </div>
+      </div>
+      <div
+        class="flex w-full flex-col items-center border border-gray-200 overflow-hidden rounded-lg bg-zinc-100 shadow-sm"
+      >
+        <div
+          class="w-full relative h-52"
+        >
+          <img
+            alt="A sample image"
+            class="object-cover object-top"
+            data-nimg="fill"
+            decoding="async"
+            loading="lazy"
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+            src="/_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=3840&q=75"
+            srcset="/_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=256&q=75 256w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=384&q=75 384w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=640&q=75 640w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=750&q=75 750w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=828&q=75 828w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=1080&q=75 1080w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=1200&q=75 1200w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=1920&q=75 1920w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=2048&q=75 2048w, /_next/image?url=https%3A%2F%2Fexample.com%2Fregular-image.jpg&w=3840&q=75 3840w"
+            style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; color: transparent;"
+          />
+          <div
+            class="bg-white shadow rounded-full absolute text-[11px] px-2.5 py-1 right-3 top-3"
+          >
+            ❤️ 
+            100
+          </div>
+        </div>
+        <div
+          class="p-5 flex items-between w-full items-center justify-between"
+        >
+          <div
+            class="size-8 rounded-full border-2 border-zinc-800 flex-shrink-0"
+          >
+            <img
+              alt="johndoe"
+              class="rounded-full"
+              data-nimg="1"
+              decoding="async"
+              height="32"
+              loading="lazy"
+              src="/_next/image?url=https%3A%2F%2Fexample.com%2Flarge-profile.jpg&w=64&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Fexample.com%2Flarge-profile.jpg&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Fexample.com%2Flarge-profile.jpg&w=64&q=75 2x"
+              style="color: transparent;"
+              width="32"
+            />
+          </div>
+          <p
+            class="text-sm truncate pl-2"
+          >
+            johndoe
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex justify-center mt-8"
+    >
+      <button
+        class="rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
+        type="button"
+      >
+        Load More
+      </button>
+    </div>
+  </div>
+</div>
+`;
