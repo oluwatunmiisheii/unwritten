@@ -9,12 +9,11 @@ import { getImages } from '@/lib/unsplash/unsplash.service'
 interface ImageGridProps {
   initialImages: ImageResult['results']
   searchQuery: string
-  initialPage: number
 }
 
-export const ImageGrid = ({ initialImages, searchQuery, initialPage }: ImageGridProps) => {
+export const ImageGrid = ({ initialImages, searchQuery }: ImageGridProps) => {
   const [images, setImages] = useState(initialImages)
-  const [page, setPage] = useState(initialPage)
+  const [page, setPage] = useState(1)
   const [hasMore, setHasMore] = useState(true)
   const [isLoading, setIsLoading] = useState(false)
 

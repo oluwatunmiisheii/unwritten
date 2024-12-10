@@ -10,9 +10,8 @@ export default async function Home({
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>
 }) {
   const params = await searchParams
-  const page = params.page ? parseInt(params.page as string) : 1
   const searchQuery = params.search ? (params.search as string) : 'Manchester'
-  const images = await getImages(page, searchQuery)
+  const images = await getImages(1, searchQuery)
 
   return (
     <section>
@@ -27,12 +26,7 @@ export default async function Home({
             </h1>
           </div>
         ) : (
-          <ImageGrid
-            initialImages={images.results}
-            searchQuery={searchQuery}
-            initialPage={page}
-            key={searchQuery}
-          />
+          <ImageGrid initialImages={images.results} searchQuery={searchQuery} key={searchQuery} />
         )}
       </Suspense>
     </section>

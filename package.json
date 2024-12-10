@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky",
-    "test": "vitest run"
+    "test": "vitest"
   },
   "dependencies": {
     "@commitlint/types": "^19.5.0",
