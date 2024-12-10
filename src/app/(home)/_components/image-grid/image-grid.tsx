@@ -48,7 +48,7 @@ export const ImageGrid = ({ initialImages, searchQuery }: ImageGridProps) => {
           {searchQuery}
         </span>
       </h5>
-      <div className="grid grid-cols-4 gap-4 mt-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
         {images.map((image, index) => (
           <div
             className="flex w-full flex-col items-center border border-gray-200 overflow-hidden rounded-lg bg-zinc-100 shadow-sm"
@@ -57,7 +57,7 @@ export const ImageGrid = ({ initialImages, searchQuery }: ImageGridProps) => {
             <div className="w-full relative h-52">
               <Image
                 src={image.urls.regular}
-                priority={index === 0}
+                priority={index < 10}
                 alt={image.description || image.alt_description || image.slug}
                 fill
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"

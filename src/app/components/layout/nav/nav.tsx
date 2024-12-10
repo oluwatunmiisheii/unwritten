@@ -14,7 +14,7 @@ export const Nav = () => {
   return (
     <header>
       <nav className="py-20 px-8 md:px-0 max-w-5xl mx-auto">
-        <ul className="flex justify-between items-center">
+        <ul className="flex flex-col sm:flex-row justify-between items-center">
           <li>
             <h5 className="font-pacifico font-bold text-2xl">PhotoSearch.</h5>
           </li>
